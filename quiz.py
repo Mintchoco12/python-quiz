@@ -1,15 +1,29 @@
 class Quiz:
 
     m_Questions = [
-        'Vraag 1: Welke land heeft de grootste populatie in de wereld',
-        'Vraag 2: Welke student staat bekend om zijn handigheid met shortcuts, extensions en andere webdeveloper-handigheden? ',
-        'Vraag 3: Welke student heeft de meeste kennis van jQuery? ' 
+        'Vraag 1: Welk land heeft de meeste inwoners? ',
+        'Vraag 2: Wat is het dichtstbevolkte land van Azië? ',
+        'Vraag 3: Wat is de hoogste berg in Azië? ' ,
+        'Vraag 4: Welke stad is de hoofdstad van Noord-Korea, officieel bekend als de Democratische Volksrepubliek Korea? ',
+        'Vraag 5: Welke boom staat op de nationale vlag van Libanon? ',
+        'Vraag 6: Sake, de traditionele wijn van Japan, wordt gemaakt door welk ingrediënt te vergisten? ',
+        'Vraag 7: Welke dieren eten bamboe en komen alleen voor in bergbossen in China? ', 
+        'Vraag 8: Wat is het totale aantal tijdzones in China? ',
+        'Vraag 9: Welk Aziatisch land heeft de grootste moslimbevolking ter wereld? ',
+        'Vraag 10: Welke valuta word gebruikt in Thailand? '
     ]
 
     m_Answers = [
-        'China',
-        'julian',
-        'nick'
+        'china',
+        'singapore',
+        'mount everest',
+        'pyongyang',
+        'ceder',
+        'rijst',
+        'panda',
+        '1',
+        'indonesië',
+        'thai baht'
     ]
 
     def __init__(self):

@@ -1,4 +1,5 @@
-from ast import main
+# Run het bestand om te spelen :)
+
 from quiz import Quiz
 
 m_Quiz = Quiz()
