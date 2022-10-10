@@ -1,17 +1,18 @@
-# Run het bestand om te spelen :)
+# Run dit bestand om te spelen :)
 
+from database import QuestionData
 from quiz import Quiz
-from database import Database
-m_Database = Database(0)
-m_Database.getTotalQuestions()
 
-#m_Quiz = Quiz()
+m_Database = QuestionData()
 
-# def main():
-#     if len(m_Quiz.m_Questions) == len(m_Quiz.m_Answers):
-#         m_Quiz.startQuiz()
-#     else:
-#         print("Er zijn een oneven vragen en antwoorden, vraag even aan de beheerder om het te corrigeren")
+m_Quiz = Quiz()
 
-# if __name__ == "__main__":
-#     main()
+def main():
+
+    if m_Quiz.m_Qa.m_TotalQuestions == m_Quiz.m_Qa.m_TotalAnswers:
+        m_Quiz.askPlayerData()
+    else:
+        print("Er zijn een oneven vragen en antwoorden, vraag even aan de beheerder om het te corrigeren")
+
+if __name__ == "__main__":
+    main()
