@@ -1,3 +1,5 @@
+from database import Database
+
 class Quiz:
 
     m_Questions = [
